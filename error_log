@@ -1,0 +1,92 @@
+[08-Mar-2016 10:06:14 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'mannco_blester'@'localhost' (using password: YES)' in /home/mannco/public_html/blester/crud/class_crud.php:21
+Stack trace:
+#0 /home/mannco/public_html/blester/crud/class_crud.php(21): PDO->__construct('mysql:dbname=ma...', 'mannco_blester', 'Blester))&')
+#1 /home/mannco/public_html/blester/loginsys.php(5): dataBase->__construct()
+#2 {main}
+  thrown in /home/mannco/public_html/blester/crud/class_crud.php on line 21
+[09-Mar-2016 12:43:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 12:46:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 12:46:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 12:58:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 12:58:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 12:59:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 12:59:19 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 13:46:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 13:46:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 13:47:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[09-Mar-2016 13:47:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[16-Mar-2016 00:04:06 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[16-Mar-2016 00:06:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[31-Mar-2016 07:42:08 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 08:15:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 08:18:21 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 08:19:21 America/Chicago] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/mannco/public_html/blester/material_edit.php on line 84
+[31-Mar-2016 08:25:51 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 08:59:43 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 10:49:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 10:50:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 10:50:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[31-Mar-2016 10:55:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[31-Mar-2016 11:03:16 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/mannco/public_html/blester/payment_done.php on line 96
+[31-Mar-2016 13:14:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 20:27:55 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[31-Mar-2016 20:44:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 00:26:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 02:56:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 03:33:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 04:11:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 04:12:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 04:12:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[01-Apr-2016 04:13:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 180
+[07-Apr-2016 06:19:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/mannco/public_html/blester/orderadd_first.php:2) in /home/mannco/public_html/blester/userotentifikasi.php on line 3
+[07-Apr-2016 07:58:10 America/Chicago] PHP Warning:  include(../userotentifikasi.php): failed to open stream: No such file or directory in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:58:10 America/Chicago] PHP Warning:  include(../userotentifikasi.php): failed to open stream: No such file or directory in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:58:10 America/Chicago] PHP Warning:  include(): Failed opening '../userotentifikasi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:58:53 America/Chicago] PHP Warning:  include(../userotentifikasi.php): failed to open stream: No such file or directory in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:58:53 America/Chicago] PHP Warning:  include(../userotentifikasi.php): failed to open stream: No such file or directory in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:58:53 America/Chicago] PHP Warning:  include(): Failed opening '../userotentifikasi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:59:22 America/Chicago] PHP Warning:  include(../userotentifikasi.php): failed to open stream: No such file or directory in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:59:22 America/Chicago] PHP Warning:  include(../userotentifikasi.php): failed to open stream: No such file or directory in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 07:59:22 America/Chicago] PHP Warning:  include(): Failed opening '../userotentifikasi.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mannco/public_html/blester/bill_done.php on line 2
+[07-Apr-2016 08:12:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[07-Apr-2016 11:20:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[07-Apr-2016 11:20:37 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[07-Apr-2016 11:21:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 08:19:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 09:43:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 09:43:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 09:44:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 09:44:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 09:45:19 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 09:45:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[09-Apr-2016 10:42:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[10-Apr-2016 00:01:34 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[11-Apr-2016 02:42:14 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[11-Apr-2016 06:36:32 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[11-Apr-2016 07:57:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 176
+[12-Apr-2016 08:34:43 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/mannco/public_html/blester/bill_done.php on line 71
+[12-Apr-2016 08:47:07 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[12-Apr-2016 08:47:07 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/mannco/public_html/blester/bill_done.php on line 71
+[12-Apr-2016 11:15:51 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/mannco/public_html/blester/bill_done.php on line 71
+[14-Apr-2016 09:30:47 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[14-Apr-2016 09:30:47 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/mannco/public_html/blester/bill_done.php on line 71
+[16-Apr-2016 10:38:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[16-Apr-2016 10:38:50 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/mannco/public_html/blester/bill_done.php on line 71
+[17-Apr-2016 06:17:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[17-Apr-2016 06:17:03 America/Chicago] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/mannco/public_html/blester/bill_done.php on line 71
+[22-Apr-2016 02:00:28 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[24-Apr-2016 06:45:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[30-Apr-2016 09:34:49 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/product_bulanan.php on line 15
+[30-Apr-2016 09:35:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/product_bulanan.php on line 15
+[01-May-2016 03:42:38 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/product_bulanan.php on line 15
+[01-May-2016 08:54:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/payment_bulanan.php on line 22
+[01-May-2016 08:54:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/payment_harian.php on line 21
+[01-May-2016 08:55:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/product_bulanan.php on line 15
+[18-May-2016 22:21:09 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/bill_done.php on line 34
+[01-Jun-2016 05:57:02 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 219
+[01-Jun-2016 19:37:33 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 219
+[01-Jun-2016 20:04:50 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 219
+[01-Jun-2016 20:30:07 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/product_bulanan.php on line 15
+[01-Jun-2016 20:32:34 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/product_bulanan.php on line 15
+[01-Jun-2016 20:47:54 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 219
+[13-Jul-2016 11:41:15 Asia/Jakarta] PHP Warning:  Invalid argument supplied for foreach() in /home/mannco/public_html/blester/index.php on line 219

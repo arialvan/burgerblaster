@@ -1,0 +1,32 @@
+exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: No such host is known. ' in C:\xampp\htdocs\blester\connection.php:9
+Stack trace:
+#0 C:\xampp\htdocs\blester\connection.php(9): PDO->__construct('mysql:host= loc...', ' root ', '  ')
+#1 C:\xampp\htdocs\blester\orderadd.php(4): include('C:\\xampp\\htdocs...')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'mannco_blester'@'localhost' (using password: YES)' in C:\xampp\htdocs\burgerblaster\connection.php:8
+Stack trace:
+#0 C:\xampp\htdocs\burgerblaster\connection.php(8): PDO->__construct('mysql:host=loca...', 'mannco_blester', 'Blester))&')
+#1 C:\xampp\htdocs\burgerblaster\index.php(3): include('C:\\xampp\\htdocs...')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'mannco_blester'@'localhost' (using password: YES)' in C:\xampp\htdocs\burgerblaster\connection.php:8
+Stack trace:
+#0 C:\xampp\htdocs\burgerblaster\connection.php(8): PDO->__construct('mysql:host=loca...', 'mannco_blester', 'Blester))&')
+#1 C:\xampp\htdocs\burgerblaster\index.php(3): include('C:\\xampp\\htdocs...')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'mannco_blester'@'localhost' (using password: YES)' in C:\xampp\htdocs\burgerblaster\connection.php:8
+Stack trace:
+#0 C:\xampp\htdocs\burgerblaster\connection.php(8): PDO->__construct('mysql:host=loca...', 'mannco_blester', 'Blester))&')
+#1 C:\xampp\htdocs\burgerblaster\index.php(3): include('C:\\xampp\\htdocs...')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\burgerblaster\connection.php:8
+Stack trace:
+#0 C:\xampp\htdocs\burgerblaster\connection.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\burgerblaster\purchase_list.php(3): include('C:\\xampp\\htdocs...')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\burgerblaster\connection.php:8
+Stack trace:
+#0 C:\xampp\htdocs\burgerblaster\connection.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\burgerblaster\purchase_list.php(3): include('C:\\xampp\\htdocs...')
+#2 {main}exception 'PDOException' with message 'SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+' in C:\xampp\htdocs\burgerblaster\connection.php:8
+Stack trace:
+#0 C:\xampp\htdocs\burgerblaster\connection.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\xampp\htdocs\burgerblaster\index.php(3): include('C:\\xampp\\htdocs...')
+#2 {main}
